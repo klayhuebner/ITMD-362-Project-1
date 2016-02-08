@@ -29,7 +29,8 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+	line-height: 1.5;
+	max-width: 100em;
 }
 ol, ul {
 	list-style: none;
@@ -46,4 +47,121 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-  
+
+#Header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #c3c3c3;
+}
+
+#Header li {
+    float: left;
+	display: inline;
+}
+
+#Header li img {
+	float: center-left;
+	padding: 10 15;
+	height: 25%;
+	width: 25%;
+}
+
+#wrap {
+	float: center;
+	max-width: 100%;
+	padding-top: 1.0em;
+	padding-right: 3.0em;
+	padding-left: 3.0em;
+	padding-bottom: 0em;
+	background-color: #e5e5e5;
+}
+
+#top-text {
+	text-align: center;
+	font-size: 1.5em;
+	font-family: 'Roboto Slab', serif;
+}
+
+#info {
+	text-align: left;
+	padding: 0.5em;
+}
+
+#Form.fixed {
+	float: left;
+	position: fixed;
+	width: 50%;
+	max-width: 50%;
+}
+
+#Form input:focus, textarea:focus {
+	border-style: rgba(0,0,0,.75);
+	border-radius: 5px;
+	border-bottom-color: yellow;
+	outline: none;
+}
+
+#Form button {
+	float: center;
+	height: 50x;
+	width: 100px;
+    padding: 5px;
+	font: bold 1.2em sans-serif;
+	border: 2px solid #eee;
+	border-radius: 5px;
+	background: white;
+	cursor: pointer;
+}
+
+#Sponsorship input[type=text] {
+	width: 100%;
+	text-align: center-left;
+	margin: 0.5em 0 0.5em 0;
+	padding: 0.5em 0 0.5em 0;
+	
+}
+
+#Sponsorship input[type=url] {
+	text-align: center-left;
+	width: 100%;
+	margin: 0.5em 0 0.5em 0;
+	padding: 0.5em 0 0.5em 0;
+}
+
+#Sponsorship input[type=email] {
+	text-align: center-left;
+	width: 100%;
+	margin: 0.5em 0 0.5em 0;
+	padding: 0.5em 0 0.5em 0;
+}
+
+#Pics {
+	float: center;
+	width: 100%;
+}
+
+#Pics h3 {
+	font-size: 1.25em;
+	padding: 0.75em;
+	font-family: 'Roboto Slab', serif;	
+}
+
+#BiCentennial img {
+	float: center;
+	height: 100%;
+	width: 100%;
+}
+
+#RowHouse img {
+	float: center;
+	height: 100%;
+	width: 100%;	
+}
+
+#Tickets img {
+	float: center;
+	height: 100%;
+	width: 100%;	
+}
